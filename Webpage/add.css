@@ -1,0 +1,242 @@
+
+.service{
+    width: 100%;
+    padding: 70px 0;
+    background: #c4c1c1;
+    text-align: center;
+}
+.titletxt{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.titletxt p{
+    margin: auto;
+    font-size: 20px;
+    color: #009688;
+    font-weight: bold;
+}
+.titletxt h1{
+    font-size: 50px;
+}
+.service-box{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.mentore{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.mentore img{
+    width: 100%;
+}
+
+
+#mission{
+    width: 100%;
+    padding: 70px 0;
+}
+.title-txt{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-txt h1{
+    font-size: 50px;
+}
+.fbox{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.features{
+    flex-basis: 50%;
+}
+.features-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.features-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.features h1{
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #009688;
+}
+.featuredesc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.featicon{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    border-radius: 8px;
+    color: #009688;
+    border: 1px solid #009688;
+
+}
+.feattxt{
+    padding: 0 20px;
+    text-align: initial;
+}
+@media screen and   (max-width: 700px){
+    .title-txt h1{
+        font-size: 35px;
+    }
+    .features{
+        flex-basis: 100%;
+    }
+    .features-img{
+        flex-basis: 100%;
+    }
+    .features-img img{
+        width: 100%;
+    }
+}
+/* -----DDDDDDDadddd */
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="rows">
+        <div class="headers">
+            <h1>Our Team</h1>
+            <p>These are our Group of Education Mentors</p>
+        </div>
+        <div class="content">
+            <div class="cards">
+                <img src="1Malakah.jpg">
+                <h2>Malakah Mutilan</h2>
+                <h4>Responsible for making the website's sitemap, drafting the layout 
+                and design of the website.</h4>
+            </div>
+        </div>
+        <div class="content">
+            <div class="cards">
+                <img src="1christy.jpg">
+                <h2>Mary Zoe Christy Cuevas</h2>
+                <h4>Responsible for making the Website</h4>
+            </div>
+        </div>
+        <div class="content">
+            <div class="cards">
+                <img src="1mary.jpg">
+                <h2>Mary Princess Absuelo</h2>
+                <h4>Responsible for drafting the website's layout and design, logo and making the website.</h4>
+            </div>
+        </div>
+        <div class="content">
+            <div class="cards">
+                <img src="1josefa.jpg">
+                <h2>Josefa Nina Famor</h2>
+                <h4>Assigned researcher for the website's short explainer video, goal, education expert, team, and the website's help & faqs.</h4>
+            </div>
+        </div>
+        <div class="content">
+            <div class="cards">
+                <img src="1erica.jpg">
+                <h2>Erica Lim</h2>
+                <h4>Assigned researcher for the website's content for training, membership, and the website's help & faqs.</h4>
+            </div>
+        </div>
+        <div class="content">
+            <div class="cards">
+                <img src="1mikko.jpg">
+                <h2>Mikko Navarro</h2>
+                <h4>Assigned researcher for the website's content for courses. </h4>
+            </div>
+        </div>
+        <div class="content">
+            <div class="cards">
+                <img src="1rebecca.jpg">
+                <h2>Rebecca Joyce Bontia</h2>
+                <h4>Assigned researcher for the website's content for training, membership, how to contact our team, and the website's help & faqs.</h4>
+            </div>
+        </div>
+        <div class="content">
+            <div class="cards">
+                <img src="1justin.jpg">
+                <h2>Justin Jan Ranido</h2>
+                <h4>Contributed in making the logo</h4>
+            </div>
+        </div>
+        <div class="content">
+            <div class="cards">
+                <img src="1trisha.jpg">
+                <h2>Trisha Pacuribot</h2>
+                <h4>Responsible for our Social Media.</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+.container{
+    width: 100%;
+}
+.container .rows{
+    width: 80%;
+    margin: auto;
+}
+.container .rows .headers{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.container .rows .headers h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 45px;
+    color: #009688;
+}
+.container .rows .headers p{
+    margin: 15px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #6e6e6e;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.content .cards{
+    flex: 1;
+    margin: 50px 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.content .cards img{
+    width: 40%;
+    height: auto;
+}
+.content .cards h2{
+    color: #009688;
+}
